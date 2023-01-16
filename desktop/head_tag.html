@@ -75,6 +75,7 @@ api.addToolbarPopupMenuOptionsCallback(() => {
 });
 
 api.modifyClass("controller:composer", {
+  pluginId: 'md-composer-extras', 
   actions: {
     floatleft() {
       this.get("toolbarEvent").applySurround('[wrap="floatl"]\n', '\n[/wrap]', "float_left_text");
