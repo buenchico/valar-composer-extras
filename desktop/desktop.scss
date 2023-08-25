@@ -6,7 +6,7 @@
   margin-right: 5px;
 }
 
-[data-wrap="columns"] > p, [data-wrap="floatl"] > p, [data-wrap="floatr"] > p {
+[data-wrap="columns"] > p, [data-wrap="floatl"] > p, [data-wrap="floatr"] > p, [data-wrap="floatc"] > p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -19,4 +19,8 @@
 [data-wrap="floatr"] {
   float: right;
   margin-left: 10px;
+}
+
+[data-wrap="floatc"] {
+  clear: both;
 }
