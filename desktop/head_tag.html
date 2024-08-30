@@ -1,4 +1,7 @@
 <script type="text/discourse-plugin" version="0.8">
+import { apiInitializer } from "discourse/lib/api";
+import loadScript from "discourse/lib/load-script";
+
 const { iconNode } = require("discourse-common/lib/icon-library");
 // TOOLBAR
 api.onToolbarCreate(toolbar => {
