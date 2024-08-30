@@ -1,9 +1,9 @@
 {
   "name": "valar-composer-extras",
   "component": true,
-  "license_url": null,
-  "about_url": "",
+  "license_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+  "about_url": "https://github.com/buenchico/valar-composer-extras",
   "authors": "Buenchico",
-  "theme_version": "0.6",
+  "theme_version": "1.0",
   "learn_more": ""
 }

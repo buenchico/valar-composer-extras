@@ -1,12 +1,19 @@
 # Valar Composer Extras
 
-This Discourse theme component adds formatting options to your Discourse composer.
+This Discourse theme component adds formatting options to your Discourse composer and enable shortcuts
 
-* underline
-* strikethrough
+* underline (Ctrl+U)
+* strikethrough (Ctrl+S)
+* highlight (Ctrl+H)
 
-These additions are responsive for desktops and phones, but not for horizon orientation or tablets. These additions have taken into consideration [Slick](https://github.com/discourse/Discourse-Slick-image-gallery), [Tiles](https://github.com/discourse/Discourse-Tiles-image-gallery), and [Events](https://github.com/angusmcleod/discourse-events) when determining what should be placed on the composer bar or in the composer pop out menu.
+## Highlight
 
-There is currently no implemented option for disabling particular buttons, but this can be done through CSS.
+Highlight use $highlight for background colour and $quaternary for text colour
+
+## Translations
+
+Tooltips and default text can be translated through the options
+
+## Credits
 
 Forked from https://github.com/MonDiscourse/md-composer-extras to adjust to the needs of the valar.es community
