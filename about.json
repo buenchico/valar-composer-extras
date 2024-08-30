@@ -1,9 +1,9 @@
 {
-  "name": "mvalar-composer-extras",
+  "name": "valar-composer-extras",
   "component": true,
   "license_url": null,
   "about_url": "",
   "authors": "Buenchico",
-  "theme_version": "0.1",
+  "theme_version": "0.2",
   "learn_more": ""
 }
