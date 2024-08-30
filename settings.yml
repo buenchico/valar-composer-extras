@@ -14,11 +14,11 @@ strikethrough_text:
   default: "Text"
   description:
     en: Enter the placeholder text that appears in the composer after the user clicks the button.
-highlight_button:
+highlighter_button:
   default: "Highlight"
   description:
     en: Enter the text for the title of the button in the composer.
-strikethrough_text:
+highlighter_text:
   default: "Text"
   description:
     en: Enter the placeholder text that appears in the composer after the user clicks the button.
