@@ -1,9 +1,9 @@
 {
-  "name": "md-composer-extras",
+  "name": "mvalar-composer-extras",
   "component": true,
   "license_url": null,
-  "about_url": "https://www.mon-discourse.fr/themes/md-composer-extras/",
-  "authors": "Steven",
-  "theme_version": "1.5",
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+  "about_url": "",
+  "authors": "Buenchico",
+  "theme_version": "0.1",
+  "learn_more": ""
 }
