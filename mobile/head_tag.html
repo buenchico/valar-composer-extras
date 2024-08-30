@@ -6,9 +6,6 @@ api.onToolbarCreate(toolbar => {
         id: "underline_button",
         group: "fontStyles",
         icon: "underline",
-        shortcut: "U",
-        preventFocus: true,
-        trimLeading: true,
         perform: e => e.applySurround('[u]', '[/u]', 'underline_text')
     });
 });
@@ -18,9 +15,6 @@ api.onToolbarCreate(toolbar => {
         id: "strikethrough_button",
         group: "fontStyles",
         icon: "strikethrough",
-        shortcut: "S",
-        preventFocus: true,
-        trimLeading: true,
 		perform: e => e.applySurround('<s>', '</s>', 'strikethrough_text')
     });
 });
@@ -30,9 +24,6 @@ api.onToolbarCreate(toolbar => {
         id: "highlight_button",
         group: "fontStyles",
         icon: "highlighter",
-        shortcut: "H",
-        preventFocus: true,
-        trimLeading: true,
         perform: e => e.applySurround('<mark>', '</mark>', 'highlight_text')
     });
 });
