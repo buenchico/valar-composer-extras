@@ -9,7 +9,7 @@ api.onToolbarCreate(toolbar => {
         icon: "underline",
         shortcut: "U",
         preventFocus: true,
-        trimLeading: true,        
+        trimLeading: true,
         perform: e => e.applySurround('[u]', '[/u]', 'underline_text')
     });
 });
@@ -21,7 +21,7 @@ api.onToolbarCreate(toolbar => {
         shortcut: "S",
         preventFocus: true,
         trimLeading: true,
-		perform: e => e.applySurround('<s>', '</s>', 'strikethrough_text')
+		perform: e => e.applySurround('~~', '~~', 'strikethrough_text')
     });
 });
 

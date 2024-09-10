@@ -15,7 +15,7 @@ api.onToolbarCreate(toolbar => {
         id: "strikethrough_button",
         group: "fontStyles",
         icon: "strikethrough",
-		perform: e => e.applySurround('<s>', '</s>', 'strikethrough_text')
+		perform: e => e.applySurround('~~', '~~', 'strikethrough_text')
     });
 });
 
