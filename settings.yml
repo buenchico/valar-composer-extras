@@ -26,6 +26,6 @@ highlight_text:
 Svg_icons:
   type: 'list'
   list_type: 'compact'
-  default: 'fa-strikethrough|fa-underline|fa-highlighter'
+  default: 'strikethrough|underline|highlighter'
   description:
     en: "Include FontAwesome 5 icon classes for each icon used in the list."
