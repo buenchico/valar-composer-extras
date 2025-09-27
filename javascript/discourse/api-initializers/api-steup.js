@@ -26,39 +26,39 @@ export default apiInitializer("0.11.1", (api) => {
   I18n.translations[currentLocale].js.composer.underline_text = settings.underline_text;
   I18n.translations[currentLocale].js.composer.strikethrough_text = settings.strikethrough_text;
 
-  // Toolbar Button Definitions
-  api.onToolbarCreate(toolbar => {
-      toolbar.addButton({
-          id: "underline_button",
-          group: "fontStyles",
-          icon: "underline",
-          shortcut: "U",
-          preventFocus: true,
-          trimLeading: true,
-          perform: e => e.applySurround('[u]', '[/u]', 'underline_text')
-      });
-  });
-  api.onToolbarCreate(toolbar => {
-      toolbar.addButton({
-          id: "strikethrough_button",
-          group: "fontStyles",
-          icon: "strikethrough",
-          shortcut: "S",
-          preventFocus: true,
-          trimLeading: true,
-  		perform: e => e.applySurround('~~', '~~', 'strikethrough_text')
-      });
-  });
 
-  api.onToolbarCreate(toolbar => {
-      toolbar.addButton({
-          id: "highlight_button",
-          group: "fontStyles",
-          icon: "highlighter",
-          shortcut: "H",
-          preventFocus: true,
-          trimLeading: true,
-          perform: e => e.applySurround('<mark>', '</mark>', 'highlight_text')
-      });
-  });
+  // Toolbar Button Definitions
+   api.onToolbarCreate((toolbar) => {
+     const buttons = [
+       {
+         id: "underline_button",
+         group: "fontStyles",
+         icon: "underline",
+         shortcut: "U",
+         title: "underline_button_title",
+         trimLeading: true,
+         perform: (e) => e.applySurround("[u]", "[/u]", "underline_text"),
+       },
+       {
+         id: "strikethrough_button",
+         group: "fontStyles",
+         icon: "strikethrough",
+         shortcut: "S",
+         title: "strikethrough_button_title",
+         trimLeading: true,
+         perform: (e) => e.applySurround("<s>", "</s>", "strikethrough_text"),
+       },
+       {
+         id: "highlight_button",
+         group: "fontStyles",
+         icon: "highlighter",
+         shortcut: "H",
+         title: "highlight_button_title",
+         trimLeading: true,
+         perform: e => e.applySurround('<mark>', '</mark>', 'highlight_text')
+       },
+     ];
+
+     buttons.forEach((button) => toolbar.addButton(button));
+   });
 });
