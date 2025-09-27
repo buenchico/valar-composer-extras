@@ -53,9 +53,9 @@ export default apiInitializer("0.11.1", (api) => {
          group: "fontStyles",
          icon: "highlighter",
          shortcut: "H",
-         title: "highlight_button_title",
+         title: "highlighter_button_title",
          trimLeading: true,
-         perform: e => e.applySurround('<mark>', '</mark>', 'highlight_text')
+         perform: e => e.applySurround('<mark>', '</mark>', 'highlighter_text')
        },
      ];
 
