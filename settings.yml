@@ -3,7 +3,7 @@ underline_button:
   description:
     en: Enter the text for the title of the button in the composer.
 underline_text:
-  default: "Text"
+  default: "underlined"
   description:
     en: Enter the placeholder text that appears in the composer after the user clicks the button.
 strikethrough_button:
@@ -11,17 +11,18 @@ strikethrough_button:
   description:
     en: Enter the text for the title of the button in the composer.
 strikethrough_text:
-  default: "Text"
+  default: "strikethrough"
   description:
     en: Enter the placeholder text that appears in the composer after the user clicks the button.
 highlighter_button:
-  default: "Highlight"
+  default: "highlight"
   description:
     en: Enter the text for the title of the button in the composer.
 highlighter_text:
-  default: "Text"
+  default: "Highlithed"
   description:
     en: Enter the placeholder text that appears in the composer after the user clicks the button.
+
 
 Svg_icons:
   type: 'list'
